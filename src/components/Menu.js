@@ -1,12 +1,8 @@
 function Menu() {
-    return (
-
-        <div id="menu">
-
-Aqui va el menu
-
-        </div>
-    )
-
+  const menuItems = [
+    { title: "Home", link: "/" },
+    { title: "Materiales", link: "/materials" },
+  ];
+  return <div id="menu">Aqui va el menu</div>;
 }
 export default Menu;

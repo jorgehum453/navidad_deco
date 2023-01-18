@@ -1,7 +1,7 @@
 import Menu from "../components/Menu";
 import Header from "../components/Header";
 
-function Home() {
+function Materials(){
   return (
     <div className="navidad">
       <Header></Header>
@@ -9,4 +9,5 @@ function Home() {
     </div>
   );
 }
-export default Home;
+
+export default Materials;
